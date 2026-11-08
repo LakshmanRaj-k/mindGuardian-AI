@@ -52,7 +52,7 @@ export const BackendStatusCard = ({ backendState, onRefresh, isLoading }) => {
             )}
           </div>
           <p className="text-[11px] text-slate-400 pt-1">
-            {connected ? 'FastAPI service operational' : error || 'Unable to reach localhost:8000'}
+            {connected ? 'FastAPI service operational' : error || 'Unable to reach the FastAPI backend'}
           </p>
         </div>
 
