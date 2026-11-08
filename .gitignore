@@ -12,6 +12,7 @@ __pycache__/
 .env
 .env.*
 !.env.example
+.vercel/
 
 # Frontend builds and logs
 frontend/dist/
