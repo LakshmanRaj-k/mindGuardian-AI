@@ -17,3 +17,4 @@ __pycache__/
 # Frontend builds and logs
 frontend/dist/
 *.log
+.vercel
