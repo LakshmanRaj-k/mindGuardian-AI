@@ -1,0 +1,18 @@
+# Dependencies
+frontend/node_modules/
+backend/venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Frontend builds and logs
+frontend/dist/
+*.log
